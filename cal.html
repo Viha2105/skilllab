@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <h1>Result predictor</h1>
+    <label for="">your name</label>
+    <input type="text" name="" id="uname">
+   <!-- <label for="">crush name</label> -->
+    <!-- <input type="text" name="" id="cname"> -->
+    <button onclick="per()">check</button>
+    <p id="res"></p> 
+
+    <script>
+        function per(){
+            var uname = document.getElementById("uname").value;
+            // var cname = document.getElementById("cname").value;
+            var per = Math.random()*100;
+            var res = document.getElementById("res");
+            res.innerHTML="the result is"+per;
+        }
+    </script>
+</body>
+</html>

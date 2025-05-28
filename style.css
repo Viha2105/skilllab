@@ -1,0 +1,57 @@
+#div1
+{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+#div2
+{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(212, 191, 3);
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+#div3
+{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(18, 163, 5);
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+#div1:hover{
+    background-color:crimson;
+    box-shadow:5px 5px 5px black;
+    border: 10px double brown;
+}
+body{
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: lowercase;
+    text-shadow: 1px 2px 3px yellow;
+    background-image: url(../../Downloads/WhatsApp Image 2025-05-27 at 10.24.24.jpeg);
+    background-attachment: fixed;
+}
+
+#main{
+    align-items: center;
+    justify-items: center;
+    height: 500px;
+    background-color: aliceblue;
+    border-color: black;
+    border-radius: 15px;
+    padding: 20px;
+
+}
